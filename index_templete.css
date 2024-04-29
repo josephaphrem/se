@@ -1,0 +1,87 @@
+.title
+{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  border-top: 5px solid rgb(47, 142, 91);
+  border-left: 5px solid rgb(98, 93, 176);
+  border-right: 5px solid rgb(193, 109, 109);
+ /*background-color: #415f05ad;*/
+  text-align: center;
+  padding: 1rem; 
+}
+
+#ever{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  z-index: 0;
+position:absolute;
+top:10px
+
+
+}
+#rectangle
+{
+width: 200px;
+height: 100x;
+background-color: blueviolet;                                     
+}
+.content{
+  display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+}
+#left{
+  display: grid;
+  grid-template-columns: 1fr;
+}
+#right1{
+  margin-left: 0px;
+  margin-left: 0px;
+  padding-left: 0px;
+ 
+ 
+}
+.viedoAlign1{
+ margin-top: 200px;
+}
+.right{
+margin-left: 0px;
+padding-left: 0px;
+
+}
+.rightVideo2{
+
+  transform: rotateZ(180deg);
+
+}
+
+
+  
+ .wm{
+  position: absolute;
+  top:10px;
+  z-index:2;
+  animation:flyy 5s; 
+ }
+ @keyframes flyy {
+  from{
+   transform: translateY(3px);
+  
+  }
+  to{
+   translate:translateY(500px);
+   
+
+  }}
+  .text_bo{
+    margin-left: 60px;
+    font-family: "Times New Roman", Times, serif;
+font-size: 22px;
+letter-spacing: 1.4px;
+word-spacing: 2px;
+color: #FFFFFF;
+font-weight: normal;
+text-decoration: none;
+font-style: normal;
+font-variant: normal;
+text-transform: none;
+  }
